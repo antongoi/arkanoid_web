@@ -1,0 +1,131 @@
+body {
+    background: #333;
+}
+
+#gameName {
+     color: #ffffff;
+     font-family: Comic Sans MS, Courier;
+     font-size: 24px;
+     font-weight: bold;
+     text-align: center;
+ }
+
+#gameSpace {
+    /*display: block;*/
+    background-image: url("images/bg-canvas.jpg");
+    margin: 10px auto 0px;
+    width: 1000px;
+    height: 570px;
+    position: static;
+    visibility: visible;
+    z-index: 10;
+}
+
+#gameover {
+    /*display: block;*/
+    background-image: url("images/bg-canvas.jpg");
+    margin: 10px auto 0px;
+    width: 1000px;
+    height: 570px;
+    position: static;
+    text-align: center;
+    /*visibility: hidden;*/
+    z-index: 8;
+}
+
+#points {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Comic Sans MS, Courier;
+    color: chartreuse;
+}
+
+#win {
+    /*display: block;*/
+    background-image: url("images/bg-canvas.jpg");
+    margin: 10px auto 0px;
+    margin: 10px auto 0px;
+    width: 1000px;
+    height: 570px;
+    position: static;
+    text-align: center;
+    /*visibility: hidden;*/
+    z-index: 8;
+}
+
+.endgame {
+    color: #ffffff;
+    font-family: Comic Sans MS, Courier;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.brickSimple {
+    width: 100px;
+    height: 40px;
+    background: url("images/bgBrick_simple.jpg");
+    /*border: 1px solid #000000*/
+    position: relative;
+    visibility: visible;
+    z-index: 11;
+}
+
+.brickBonus {
+    width: 100px;
+    height: 40px;
+    background: rgba(206, 216, 0, 1);
+    position: relative;
+}
+
+#rocket {
+    width: 150px;
+    height: 20px;
+    background: url("images/rocket.png");
+    position: absolute;
+    top: 590px;
+    left: 300px;
+    z-index: 11;
+}
+
+#ball {
+    width: 16px;
+    height: 16px;
+    background: url("images/ball.png");
+    position: absolute;
+    top: 574px;
+    left: 370px;
+    visibility: visible;
+    z-index: 11;
+}
+
+.menu {
+    margin: 10px auto 0px;
+    font-family: Comic Sans MS, Courier;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #f5f8a5;
+}
+
+a:link {
+    color: #f5f8a5;
+}
+
+/* visited link */
+a:visited {
+    color: #f5f8a5;
+}
+
+/* mouse over link */
+a:hover {
+    color: #c3f89f;
+}
+
+/* selected link */
+a:active {
+    color: #f5f8a5;
+}
